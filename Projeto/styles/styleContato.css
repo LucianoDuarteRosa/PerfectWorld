@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Dm sans';
+    src: url('../fonte/DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+
+body{
+    margin: 0;
+    background-color: #000;
+    font-family: 'DM sans', sans-serif;
+}
+
+.cabecalho{
+    background-image: url('../imagens/contato-image.jpg');
+    height: 450px;
+}
+
+.form{
+    font-weight: 700;
+    padding: 20px;
+    opacity: .75;
+    
+}
+
+.form h1 {
+    display: flex;
+    color: #917c4f;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.col-auto{
+    margin-left: 45%;
+}
+
+.col-auto button{
+    width: 100px;
+    height: 40px;
+    padding: 0 10px 0 10px;
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+}
+
+.col-auto button:hover{
+background-color: #917c4f;
+}
+
+.contato a{
+    color: #917c4f;
+}
+
+.form-control ,.form-select{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.form-control:focus , .form-select:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}

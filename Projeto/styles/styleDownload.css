@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Dm sans';
+    src: url('../fonte/DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+
+body {
+    background-color: #000;
+    font-family: 'DM sans', sans-serif;
+}
+
+.cabecalho{
+    background-image: url('../imagens/Download-image.jpg');
+    height: 450px;
+}
+
+/* Inicio SectionDownload */
+
+.sectionDownload {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 30px 0;
+    gap: 15px;
+}
+
+.list-group a{
+    border: none;
+}
+
+.sectionDownload div a:hover {
+    background-color: #917c4f;
+    border: none;
+}
+
+.sectionEsp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: auto;
+    color: #917c4f;
+}
+
+.downlaodtext{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    color: #917c4f;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+section div p {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    color: #917c4f;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+table td,
+table th {
+    padding: 1rem;
+    text-align: left;
+    border: 0.1rem solid black;
+}
+
+.textlogo{
+    color: red;
+    font-weight: 300px;
+}
+
+.tdBG{
+    background-color: #373b3e!important;
+}
+
+/* Fim SectionDownload */
+
+.download a{
+    color: #917c4f;
+}
+
+/*inicio da responsividade*/
+
+@media (min-width: 601px) and (max-width: 1250px) {
+    .sectionDownload{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 5px;
+    }
+
+    .responsive-table{
+        margin: 5px;
+    }
+}   
+
+
+@media (max-width: 600px) {
+    .sectionDownload{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 5px;
+    }
+
+    .responsive-table{
+        margin: 5px;
+    }
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/logo.ico" type="image/x-icon">  
+    <link rel="stylesheet" href="styles/stylePersonagens.css">
+    <link rel="stylesheet" href="./fonte/fontawesome-free-6.5.1-web/css/all.css">
+    <title>Perdect World - Personagens</title>
+</head>
+<body>
+    <header>
+        <a class="navbar-brand  novalogo" href="index.html"><img style="width: 65px;" src="imagens/logo.png" alt=""></a> 
+        <nav class="menupersonagens">   
+            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+            href="novidades.html">Novidades</a>     
+            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover personagens"
+            href="personagens.html">Personagens</a>
+            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+             href="download.html">Download</a>
+            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+            href="contato.html">Contato</a>
+            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                href="sobre.html">Sobre</a>
+            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"  href="paineljogador.html">Painel do Jogador</a>
+        </nav> 
+        <div class="headerlogin">
+            <div id="loginUsuario">
+                <div class="usuarioDados">
+                    <span class="fa-solid fa-user" style="color: #917c4f;"></span>
+                    <p id="loginNome"></p>
+                </div>
+                <input type="button" value="Logout" onclick="fazerLogout()">
+                </div>
+        </div>
+    </header>
+
+<!-- carousel -->
+<div class="carousel">
+    <!-- list item -->
+    <div class="list">
+        <div class="item">
+            <img src="imagens/personagens/img1.jpg">
+            <div class="content">
+                <div class="author">Final Fantasy XVI</div>
+                <div class="title">Glaive</div>
+                <div class="topic">Guerreiro</div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="imagens/personagens/img2.jpg">
+            <div class="content">
+                <div class="author">Final Fantasy X</div>
+                <div class="title">Yuna</div>
+                <div class="topic">Sacerdote</div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="imagens/personagens/img3.jpg">
+            <div class="content">
+                <div class="author">Marvel</div>
+                <div class="title">Escarlate</div>
+                <div class="topic">Fenticeira</div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="imagens/personagens/img4.jpg">
+            <div class="content">
+                <div class="author">Harry Potter</div>
+                <div class="title">Dumbledore</div>
+                <div class="topic">Mago</div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="imagens/personagens/img5.jpg">
+            <div class="content">
+                <div class="author">Desconhecido</div>
+                <div class="title">Astério</div>
+                <div class="topic">Barbaro</div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="imagens/personagens/img6.jpg">
+            <div class="content">
+                <div class="author">Lord of the Rings</div>
+                <div class="title">Legoloas</div>
+                <div class="topic">Arqueira</div>
+            </div>
+        </div>
+    </div>
+    <!-- list thumnail -->
+    <div class="thumbnail">
+        <div class="item">
+            <img src="imagens/personagens/img1.jpg">
+            <div class="content">
+                <div class="title">
+                    Glaive
+                </div>
+                <div class="description">
+                    Guerreiro
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="imagens/personagens/img2.jpg">
+            <div class="content">
+                <div class="title">
+                    Yuna
+                </div>
+                <div class="description">
+                    Sacerdote
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="imagens/personagens/img3.jpg">
+            <div class="content">
+                <div class="title">
+                    Escarlater
+                </div>
+                <div class="description">
+                    Fenticeira
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="imagens/personagens/img4.jpg">
+            <div class="content">
+                <div class="title">
+                    Dumbledore
+                </div>
+                <div class="description">
+                    Mago
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="imagens/personagens/img5.jpg">
+            <div class="content">
+                <div class="title">
+                    Astério
+                </div>
+                <div class="description">
+                    Barbaro
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="imagens/personagens/img6.jpg">
+            <div class="content">
+                <div class="title">
+                    Legoloas
+                </div>
+                <div class="description">
+                    Arqueira
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- next prev -->
+
+    <div class="arrows">
+        <button id="prev"><</button>
+        <button id="next">></button>
+    </div>
+    <!-- time running -->
+    <div class="time"></div>
+</div>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/scriptPersonagens.js"></script>
+</body>
+</html>

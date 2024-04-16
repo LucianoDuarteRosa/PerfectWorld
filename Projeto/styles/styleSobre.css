@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Dm sans';
+    src: url('../fonte/DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+
+body{
+    margin: 0;
+    background-color: #000;
+    font-family: 'DM sans', sans-serif;
+}
+
+.cabecalho-sobre{
+    background-image: url('../imagens/sobre-image.png');
+    height: 450px;
+    width: 100%;
+
+}
+
+.sobre a{
+    color: #917c4f;
+}
+
+main{
+    background-color: black;
+}
+.section-sobre h1 {
+    display: flex;
+    color: #917c4f;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 60px; 
+}
+
+.section-sobre p {
+    display: block;
+    color: #917c4f;
+    font-weight: bold;
+    align-items: center;
+    justify-content:space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.section-videos h1{
+    display: flex;
+    color: #917c4f;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.video-tw {
+    margin-bottom: 80px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.col iframe{
+    gap: 20px;
+}
+
+
+@media (max-width: 600px) {
+    .text-center{
+        margin: 0;
+        padding: 10px;  
+    }
+    .col iframe{
+        width: auto;
+    }
+}
