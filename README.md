@@ -1,6 +1,8 @@
-----
+<h4><center><strong><font style="font-family: Arial, sans-serif;">Perfect World</font></strong></center></h4>
 
-**Perfect World - Projeto Front End**
+<p align="center">
+    <img src="imagem.png" alt="Logo">
+</p>
 
 Este é o repositório para o projeto "Perfect World", desenvolvido como parte do módulo de codificação front end do projeto de desenvolvedor Full Stack aplicado pelo SENAI em parceria com o Edu Livre e Energisa.
 
